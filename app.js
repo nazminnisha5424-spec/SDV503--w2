@@ -51,7 +51,6 @@ msg . trim() // "hi"
 
 const name = "Ali";
 const age = 25;
-
 // Old way - concatenation (error-prone)
 const msg1 = "Hello," + name + "! You are " + age + " years old.";
 // New way - template literals (clean and readable)
