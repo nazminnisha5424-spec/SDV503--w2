@@ -48,3 +48,20 @@ msg . slice(7, 17) // "JavaScript"
 msg . replace("Hello", "Hi") // "Hi, JavaScript! "
 msg . split(",") // ["Hello", " JavaScript! "]
 msg . trim() // "hi" 
+
+const name = "Ali";
+const age = 25;
+
+// Old way - concatenation (error-prone)
+const msg1 = "Hello," + name + "! You are " + age + " years old.";
+// New way - template literals (clean and readable)
+const msg2 = `Hello, ${name}! You are ${age} years old.`;
+// Multi - line strings
+const html = `
+,div class = "card">
+    <h2>${name}</h2>
+    <p>Age: ${age}</p>
+</div>
+`;
+// Any expression can be used inside ${}
+const total = 'Price: ${(12.99 * 3).toFixed(2)}'; // "Price: 38.97"
