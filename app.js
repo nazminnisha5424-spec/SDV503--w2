@@ -8,7 +8,7 @@ scrore = 10;//OK - reassignment allowed for let
 const MAX = 100;
 //MAX = 200; //TypeErroer: Assignment to constant variable.
 let homeaddress = "Your home address";
-cosole.log(homeaddress); // Your home address 
+console.log(homeaddress); // Your home address 
 //Arithmetic 
 5 + 3 // 8 
 10 - 4 // 6 
