@@ -36,7 +36,7 @@ x += 5; //15
 x -= 2; // 13
 x *=2; //26
 
-const msg = Hello, JavaScript!";
+const msg = "Hello, JavaScript!";
 
 msg . length // 18
 msg . toUpperCase() // "HELLO, JAVASCRIPT! "
