@@ -47,16 +47,4 @@ msg . indexOf("Java") // 7
 msg . slice(7, 17) // "JavaScript"
 msg . replace("Hello", "Hi") // "Hi, JavaScript! "
 msg . split(",") // ["Hello", " JavaScript! "]
-//msg . trim() // "hi" 
-
-const msg = "Hello, JavaScript! ;"
-
-Console.log(msg . toUpperCase()); // "HELLO, JAVASCRIPT! "
-msg . toUpperCase(); // "HELLO, JAVASCRIPT! "
-msg . includes("Java"); // true
-msg . startsWith("He"); // true
-msg . indexOf("Java"); // 7
-msg . slice(7, 17); // "JavaScript"
-msg . replace("Hello", "Hi"); // "Hi, JavaScript! "
-msg . split(","); // ["Hello", " JavaScript! "]
-msg . trim(); // "Hello, JavaScript! "
+msg . trim() // "hi" 
