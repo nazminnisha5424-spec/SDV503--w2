@@ -49,6 +49,8 @@ msg . replace("Hello", "Hi") // "Hi, JavaScript! "
 msg . split(",") // ["Hello", " JavaScript! "]
 //msg . trim() // "hi" 
 
+const msg = "Hello, JavaScript! ;"
+
 Console.log(msg . toUpperCase()); // "HELLO, JAVASCRIPT! "
 msg . toUpperCase(); // "HELLO, JAVASCRIPT! "
 msg . includes("Java"); // true
