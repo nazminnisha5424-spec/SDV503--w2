@@ -1,5 +1,5 @@
 var name = "Alice";//Function-scoped, hoisted - avoid in modern J5
-let age : 25;//Block-scoped, can be reassigned
+let age = 30 ;//Block-scoped, can be reassigned
 const pi = 3.14159;//Block-scoped, cannot be reassigned
 
 let scrore = 0;
@@ -50,7 +50,7 @@ msg . split(",") // ["Hello", " JavaScript! "]
 msg . trim() // "hi" 
 
 const name = "Ali";
-const age = 25;
+//let age = 25; 
 // Old way - concatenation (error-prone)
 const msg1 = "Hello," + name + "! You are " + age + " years old.";
 // New way - template literals (clean and readable)
