@@ -62,6 +62,3 @@ const html = `
     <p>Age: ${age}</p>
 </div>
 `;
-// Any expression can be used inside ${}
-const total = 'Price: ${(12.99 * 3).toFixed(2)}'; // "Price: 38.97"
-
