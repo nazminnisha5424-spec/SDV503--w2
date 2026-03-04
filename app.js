@@ -1,5 +1,5 @@
 var name = "Alice";//Function-scoped, hoisted - avoid in modern J5
-let age = 25;//Block-scoped, can be reassigned
+let age : 25;//Block-scoped, can be reassigned
 const pi = 3.14159;//Block-scoped, cannot be reassigned
 
 let scrore = 0;
@@ -64,3 +64,4 @@ const html = `
 `;
 // Any expression can be used inside ${}
 const total = 'Price: ${(12.99 * 3).toFixed(2)}'; // "Price: 38.97"
+
